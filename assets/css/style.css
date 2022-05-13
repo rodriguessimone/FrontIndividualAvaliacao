@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  background-color: #e4b536;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5rem;
+  margin: auto;
+  background-color: #f57b09;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+header a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+li {
+  display: inline;
+  padding: 0.5rem;
+}
+.titulo {
+  display: inline;
+  text-align: left;
+  margin-left: 0.2rem;
+  padding: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.logos {
+  text-align: right;
+  width: 100%;
+  cursor: pointer;
+}
+.introducaoT1 {
+  text-align: center;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.introducaoT2 {
+  text-align: center;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sites {
+  color: #fff;
+  display: inline;
+  text-align: left;
+  margin-left: 0.5rem;
+  padding: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+  color: #fff;
+  margin: 1.4rem;
+  width: 95;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 80%;
+  margin: auto;
+}
+.card {
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 25rem;
+  background-color: #a86207;
+  color: #fff;
+  border-radius: 1.3rem;
+}
+
+.texto-img {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttom {
+  padding: 10px 8px;
+  width: 50px;
+  color: #070707;
+  background-color: #f57b09;
+  border: 1px solid #070707;
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+.buttom:hover {
+  background-color: #356375;
+  transition: 0.4s;
+}
+
+#Sobre {
+  display: inline;
+  text-align: left;
+  margin-left: 0.5rem;
+  padding: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+hr {
+  margin: 1.5rem;
+  width: 96%;
+}
+.desenvolvedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Simone {
+  width: 210px;
+  height: auto;
+  border-radius: 100%;
+  margin: auto;
+  padding: 2rem;
+  float: left;
+}
+#Newsletter {
+  display: inline;
+  text-align: left;
+  margin-left: 0.5rem;
+  padding: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.Assine-frase {
+  color: #fff;
+  text-align: center;
+}
+.introAssinar {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #172718;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 65%;
+  margin: auto;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #a86207;
+}
+.login form input[type="text"],
+.login form input[type="email"] {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+.login form input[type="text"]:focus,
+.login form input[type="email"]:focus {
+  outline: 2px solid #070707;
+}
+.login form input[type="submit"] {
+  width: 50%;
+  margin: auto;
+  background-color: #356375;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.4s;
+}
+.login form input[type="submit"]:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+.final-left {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background-color: #f57b09;
+}
+.dsv {
+  display: inline;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.info {
+  display: inline;
+  text-align: right;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .desenvolvedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
